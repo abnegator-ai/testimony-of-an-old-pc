@@ -1,8 +1,8 @@
-const VERSION = "c7358932ccd2c40b";
+const VERSION = "617683ab0f864e47";
 const SCOPE = self.registration.scope;
 const PREFIX = 'old-pc-testimony:' + encodeURIComponent(SCOPE) + ':';
 const CACHE = PREFIX + VERSION;
-const FILES = ["./assets/ending-class.webp","./assets/evidence/IMG_0712_04.jpg","./assets/evidence/clinic-duty-log.jpg","./assets/evidence/exhibit-photo.jpg","./assets/evidence/exhibit-register.jpg","./assets/evidence/handover-papers.jpg","./assets/evidence/incident-brief.jpg","./assets/evidence/inventory-film.jpg","./assets/evidence/lesson-board.jpg","./assets/evidence/lodging-register.jpg","./assets/evidence/night-school.jpg","./assets/evidence/night-transport.jpg","./assets/evidence/returned-items.jpg","./assets/evidence/shop-c742.jpg","./assets/evidence/station-key-register.jpg","./assets/evidence/station-work-order.jpg","./assets/evidence/valuation-and-booking.jpg","./assets/index-B7X2tHr6.js","./assets/index-o8Kh37zZ.css","./assets/xp-bliss.svg","./favicon.svg","./index.html","./offline-manifest.json"].map(path =>
+const FILES = ["./assets/ending-class.webp","./assets/evidence/IMG_0712_04.jpg","./assets/evidence/clinic-duty-log.jpg","./assets/evidence/exhibit-photo.jpg","./assets/evidence/exhibit-register.jpg","./assets/evidence/handover-papers.jpg","./assets/evidence/incident-brief.jpg","./assets/evidence/inventory-film.jpg","./assets/evidence/lesson-board.jpg","./assets/evidence/lodging-register.jpg","./assets/evidence/night-school.jpg","./assets/evidence/night-transport.jpg","./assets/evidence/returned-items.jpg","./assets/evidence/shop-c742.jpg","./assets/evidence/station-key-register.jpg","./assets/evidence/station-work-order.jpg","./assets/evidence/valuation-and-booking.jpg","./assets/index-DUHpWa8q.css","./assets/index-s654y816.js","./assets/xp-bliss.svg","./favicon.svg","./index.html","./offline-manifest.json"].map(path =>
   new URL(path.split('/').map(encodeURIComponent).join('/'), SCOPE).href
 );
 const INDEX = new URL('index.html', SCOPE).href;
